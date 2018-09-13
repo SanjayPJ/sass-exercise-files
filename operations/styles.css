@@ -1,0 +1,38 @@
+body {
+  background-color: #474747;
+}
+
+body .box1 {
+  height: 100px;
+  width: 100px;
+  background-color: cyan;
+}
+
+body .box3 {
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: cyan;
+}
+
+body .box4 {
+  margin-top: 10px;
+  height: 0px;
+  width: 0px;
+  background-color: cyan;
+}
+
+body .box2 {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: cyan;
+}
+
+body .box5 {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: cyan;
+}
+/*# sourceMappingURL=styles.css.map */

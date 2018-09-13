@@ -1,0 +1,19 @@
+body .box {
+  height: 100px;
+  width: 100px;
+  background-color: #454545;
+  margin-top: 10px;
+}
+
+body .lighten {
+  background-color: #c5c5c5;
+}
+
+body .darken {
+  background-color: black;
+}
+
+body .opacify {
+  background-color: #454545;
+}
+/*# sourceMappingURL=style.css.map */

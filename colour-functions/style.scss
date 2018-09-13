@@ -1,0 +1,23 @@
+$secondary-color: #454545;
+
+body {
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: $secondary-color;
+        margin-top: 10px;
+    }
+
+    .lighten {
+        background-color: lighten($secondary-color, 50)
+    }
+
+    .darken {
+        background-color: darken($secondary-color, 40)
+    }
+
+    .opacify {
+        background-color: opacify($secondary-color, 0.1)
+    }
+
+}

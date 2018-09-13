@@ -1,0 +1,9 @@
+$primary-color: #4444;
+
+@mixin back-color {
+    background-color: $primary-color;
+}
+
+body {
+    @include back-color;
+}

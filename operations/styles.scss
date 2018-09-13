@@ -1,0 +1,45 @@
+$primary-color: #474747;
+$secondary-color: cyan;
+$default-size: 100px;
+
+body {
+    background-color: $primary-color;
+
+    .box1 {
+        height: $default-size;
+        width: $default-size;
+        background-color: $secondary-color;
+    }
+
+    //addition
+    .box3 {
+        margin-top: 10px;
+        height: $default-size + 50px;
+        width: $default-size + 50px;
+        background-color: $secondary-color;
+    }
+
+    // substraction
+    .box4 {
+        margin-top: 10px;
+        height: $default-size - 100px;
+        width: $default-size - 100px;
+        background-color: $secondary-color;
+    }
+
+    //multiplication
+    .box2 {
+        margin-top: 10px;
+        height: $default-size * 2;
+        width: $default-size * 2;
+        background-color: $secondary-color;
+    }
+
+    //division
+    .box5 {
+        margin-top: 10px;
+        height: $default-size / 2;
+        width: $default-size / 2;
+        background-color: $secondary-color;
+    }
+}

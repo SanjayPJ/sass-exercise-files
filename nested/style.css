@@ -1,0 +1,16 @@
+body {
+  background-color: cyan;
+}
+
+body .box {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+}
+
+body .box:hover {
+  background-color: red;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+/*# sourceMappingURL=style.css.map */

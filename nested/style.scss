@@ -1,0 +1,17 @@
+$primary-color: cyan;
+$secondary-color: grey;
+
+body {
+    background-color: $primary-color;
+
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: $secondary-color;
+
+        &:hover {
+            background-color: red;
+            transition: 0.2s;
+        }
+    }
+}
